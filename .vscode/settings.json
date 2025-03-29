@@ -1,0 +1,13 @@
+{
+    "editor.tabSize": 10,
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
+    "tailwindCSS.experimental.classRegex": [
+      ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
+    "prettier.enable": false
+}
