@@ -14,8 +14,8 @@
   },
   "lint-staged": {
     "*.{vue,ts,mjs,css}": [
-      "npm run lint",
-      "npm run typecheck"
+      "pnpm run lint",
+      "pnpm run typecheck"
     ]
   },
   "dependencies": {
@@ -23,7 +23,9 @@
     "@nuxt/fonts": "0.11.0",
     "@nuxt/icon": "1.11.0",
     "@nuxt/image": "1.10.0",
-    "@nuxt/ui": "3.0.2",
+    "@nuxt/ui-pro": "^3.0.2",
+    "@polar-sh/nuxt": "^0.2.5",
+    "@polar-sh/sdk": "^0.32.4",
     "@vueuse/nuxt": "13.0.0",
     "eslint": "^9.0.0",
     "nuxt": "^3.16.1",

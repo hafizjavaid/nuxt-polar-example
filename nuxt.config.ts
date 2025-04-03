@@ -6,8 +6,9 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/ui',
+    '@nuxt/ui-pro',
     '@vueuse/nuxt',
+    '@polar-sh/nuxt',
   ],
   devtools: { enabled: true },
   app: {
@@ -20,6 +21,14 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   colorMode: {
     preference: 'system',
+  },
+  runtimeConfig: {
+    public: {
+      baseUrl: '',
+    },
+    polarToken: '',
+    polarServer: '',
+    polarWebhookSecret: '',
   },
   future: {
     compatibilityVersion: 4,

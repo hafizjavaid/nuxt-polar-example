@@ -1,6 +1,8 @@
 <template>
   <div>
-    Home Page <NuxtLink to="/products">Products</NuxtLink>
+    <UMain>
+      <slot />
+    </UMain>
   </div>
 </template>
 
