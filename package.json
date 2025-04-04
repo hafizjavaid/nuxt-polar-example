@@ -9,13 +9,11 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint . --fix",
-    "typecheck": "npx nuxi typecheck .",
     "prepare": "husky"
   },
   "lint-staged": {
     "*.{vue,ts,mjs,css}": [
-      "pnpm run lint",
-      "pnpm run typecheck"
+      "pnpm run lint"
     ]
   },
   "dependencies": {

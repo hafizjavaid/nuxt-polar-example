@@ -2,7 +2,6 @@ export default defineEventHandler(async (event) => {
   const { polarWebhookSecret } = useRuntimeConfig()
   const webhooksHandler = Webhooks({
     webhookSecret: polarWebhookSecret,
-
     onPayload: async (payload) => {
       console.log('-------payload__________', payload)
       switch (payload.type) {
